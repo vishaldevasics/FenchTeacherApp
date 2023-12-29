@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skybg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To the French Teacher app."
+        android:textColor="#B729021C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/btnRedID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginBottom="185dp"
+        android:text="Red"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPinkID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnBlueID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="blue"
+        app:backgroundTint="#3C87AA"
+        app:layout_constraintStart_toStartOf="@+id/btnVioletID"
+        app:layout_constraintTop_toBottomOf="@+id/btnVioletID" />
+
+    <Button
+        android:id="@+id/btnGreenID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="green"
+        app:backgroundTint="#09AC19"
+        app:layout_constraintStart_toStartOf="@+id/btnRedID"
+        app:layout_constraintTop_toBottomOf="@+id/btnRedID" />
+
+    <Button
+        android:id="@+id/btnPinkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="230dp"
+        android:text="pink"
+        app:backgroundTint="#D8E159AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnGreenID" />
+
+    <Button
+        android:id="@+id/btnVioletID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="violet"
+        app:backgroundTint="#D500F9"
+        app:layout_constraintStart_toStartOf="@+id/btnPinkID"
+        app:layout_constraintTop_toBottomOf="@+id/btnPinkID" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
