@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 
-                                        //Here implements View.OnClickListener is used to avoid writing the
-                                        //OnClickListener again and again for every button.
+//Here implements View.OnClickListener is used to avoid writing the
+//OnClickListener again and again for every button.
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button redBtn,greenBtn,pinkBtn,violetBtn,blueBtn;
 
